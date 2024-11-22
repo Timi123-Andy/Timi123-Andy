@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>SIWES</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcome to my website</h1>
+    <h2>About Artificial Intelligence</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore officiis recusandae odit nulla iusto beatae minus harum accusamus suscipit mollitia. Eius ipsum libero eum exercitationem dolores qui? Ullam, voluptatibus nam.</p>
+    <p style="color: white;border: solid; background-color: rgba(100, 40, 20, 2);" title="Department 1"><B>Make your choice</B></p><br>
+    
+    <div>
+        <h1 style="font-size: 30px; text-align: left; color: black;">Department in FCF</h1>
+        <div class="COM"> 
+            <h3>Computer Science Department</h3>
+            <p>Computer Science Department was established in the year 2xxx. There are xxx fulltime lecturters in the departent</p>
+        </div>
+
+        <div class="agt">
+            <h3>Agric Science Department</h3>
+            <p>Agric Science Department was established in the year 2xxx. There are xxx fulltime lecturters in the departent</p>
+        </div>
+
+        <div class="hot">
+            <h3>Horticultural Science Department</h3>
+            <p>Horticultural Science Department was established in the year 2xxx. There are xxx fulltime lecturters in the departent</p>
+        </div>
+        <P>Thank you for doing business with us, </P>
+    </div>
+
+    <h3>Register Now</h3>
+    <form class="COM">
+        <fieldset>
+            <legend>Fill the form below carefully</legend>
+        <label for="Fn">FirstName</label><br>
+        <input type="text" id="Fn" name="Fn" value="Timi">
+    </form><br>
+
+    <form action="">
+        <label for="Ln">LastName</label><br>
+        <input type="text" id="Ln" name="Ln" value="Sunday">
+    </form><br>
+
+    <h3>Choose your favorite Course</h3>
+    <input type="radio" id="cs" name="favorite" value="Computer Science">
+    <label for="cs">Computer Science</label>
+
+     <input type="radio" id="as" name="favorite" value="Agric Science">
+    <label for="as">Agric Science</label>
+
+    <input type="radio" id="ht" name="favorite" value="Horticulture">
+    <label for="ht">Horticulture</label><br>
+
+    <h3>Select your Course title</h3>
+
+    <input type="checkbox" id="maths" name="maths" value="maths">
+    <label for="maths">mathematics</label><br>
+
+    <input type="checkbox" id="eng" name="eng" value="eng">
+    <label for="eng">English</label><br>
+
+    <input type="checkbox" id="civic" name="civic" value="civic">
+    <label for="civic">civic</label><br>
+
+    <h3>Choose your preferred hostel</h3>
+    <label for="hostel">Choose one hostel ONLY</label>
+    <select name="hostel" id="hostel" size="4" multiple>
+        <option value="A">Hostel A</option>
+        <option value="B">Hostel B</option>
+        <option value="C">Hostel C</option>
+        <option value="O">Hollywood</option>
+    </select>
+    <h3>Attestation</h3>
+    <textarea name="attest" id="" cols="50" rows="10">I attest that...</textarea>
+    <button>Register</button>
+</fieldset>
+    <p>Vegetables</p>
+    <ul style="list-style-type: square;">
+        <li>Letus</li>
+        <li>Onion
+            <ul>
+                <li>White Onion</li>
+                <li>Local Onion</li>
+            </ul>
+        </li>
+        <li>Cabbage</li>
+    </ul>
+
+    <p>Fruits</p>
+    <ol type="i">
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pinapple</li>
+    </ol>
+
+    <dl>
+        <dt>Vegetables</dt>
+        <dd>-Letus</dd>
+        <dd>-Onion</dd>
+        <dd>-Cabbage</dd>
+        <dt>Fruits</dt>
+        <dd>-Orange</dd>
+        <dd>-Watermelon</dd>
+        <dd>-Pinapple</dd>
+    </dl>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>SN</th>
+            <th style="width: 50%;">NAME</th>
+            <th>DAPARTMENT</th>
+            <th>LEVEL</th>
+        </tr>
+        <tr style="height: 30px;">
+            <td>1</td>
+            <td>AJAYI DANIEL</td>
+            <td>AGT</td>
+            <td>ND2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>IBRAHIM IDRIS</td>
+            <td>COSSA</td>
+            <td>ND2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>OJO VICTOR</td>
+            <td>MASSCOM</td>
+            <td>ND2</td>
+        </tr>
+    </table>
+
+    <button onclick="alertus()">Subscribe</button>
+
+   <script>
+        function alertus() {
+            alert("welcome to my website");
+        }
+    </script>
+
+    <p id="text">My impeccable website</p>
+
+    <button onclick="changetext()">Click me</button>
+
+    <script>
+        function changetext() {
+            document.getElementById("text").innerHTML = "You have used my website. Thank you"
+        }
+    </script>
+    <p><i>Choices are here</i></p>
+    <p>This is <sub>subscript</sub> and this is <sup>superscript</sup></p>
+    <p>H<sub>2</sub>0</p>
+    <p>make your <mark>decision</mark> now</p>
+    <p>i like <del>red</del></p>
+    <p>i have made my <u>choice</u></p>
+    <a href="http://fcfibadan.edu.ng">Visit our website to read more</a><br><br>
+    <a href="about.html" target="_blank">Contact us</a><br><br>
+     <img src="WIN_20241009_09_20_16_Pro.jpg" width="100" height="50" alt="This is a picture">
+</body>
+    <footer>
+        <small>&copy;Copyright reserved Siwes 2024 </small>
+    </footer>
+</html>   
